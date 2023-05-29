@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +104,180 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+
+/* Global CSS */
+
+.image-circle {
+  border-radius:50%  !important; 
 }
+
+#profileCardSize1 {
+  height: 20vh !important;
+}
+
+#profileCardSize2 {
+  height: 16vh !important;
+}
+
+.btn-primary {
+  background-color: #e93d44 !important;
+  color: white !important;
+  border-color: #e93d44 !important;
+}
+
+.btn-primary:hover {
+  background-color: transparent !important;
+  color: #E93D44 !important;
+  border-color: #E93D44 !important;
+}
+
+.form-control:focus {
+  border-color: #e93d44 !important; /* Change the border color to your desired color */
+  box-shadow: 0 0 0 0.2rem rgba(233, 61, 68, 0.25) !important;; /* Add a box shadow to the form control */
+}
+
+a,h1,h4 {
+  color:#e93d44 !important;
+}
+
+.a-login{
+  color:#e93d44 !important;  
+}
+
+.a-logout{
+  color: rgb(215, 0, 7) !important;
+  text-size-adjust: 19px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.a-navbar{
+  color: #000 !important;
+  text-decoration: none;
+}
+
+.a-navbar:hover {
+  color:#e93d44 !important;
+}
+
+.dropdown-menu-custom {
+  bottom: auto !important;
+}
+
+.dropdown-item:hover {
+  background-color: #f7f7f7 !important;
+}
+
+.material-icons {
+  font-size: 1.2rem !important;
+  margin-left: 8px !important;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #dc3544 !important;
+  font-weight: 700 !important;
+}
+
+/* 4 styles for the little status circle on the left side of the employee cards */
+.status-icon-size {
+  font-size: 20px;
+}
+
+.state-active {
+  color: #26C000;
+}
+
+.state-inactive {
+  color: #EA2A00;
+}
+
+.state-pending {
+  color: yellow;
+}
+
+.state-creating-employee {
+  color: #646979;
+}
+
+/* 2 styles for the navbar for retrieving the profile information */
+.nav-link {
+  color: black !important;
+}
+
+.nav-link.active {
+  color: #EA2A00 !important;
+}
+
+.nav-roadmap {
+  color: black !important;
+}
+
+.nav-roadmap.active {
+  color: #FFFFFF !important;
+}
+
+/*Alerta para generación correcto*/
+.alert-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(5px);
+  background-color: #00000068;
+  z-index: 9999;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-alert {
+  background-color: #FFFFFF;
+  color: #e93d44;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.custom-alert h2 {
+  margin-top: 0;
+}
+
+.custom-alert button {
+  background-color: #e93d44;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/*Alerta para Generacion Error*/
+
+.custom-alert2 {
+  background-color: #e93d44;
+  color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+.custom-alert2 button {
+  background-color: #FFFFFF;
+  color: #e93d44;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
